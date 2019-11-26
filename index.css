@@ -1,0 +1,95 @@
+
+body {
+    background: peachpuff
+}   
+
+.topbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.mainBox  {
+    display: flex;
+    margin: 15px;
+    border: 2px solid gray;
+    height: 100vh;
+    background: cornsilk;
+    justify-content: space-between;
+
+}
+
+.navBox {
+    margin-top: 20px;
+    display: flex;
+  
+    width: 100%;
+    /* justify-content: space-around; */
+    background: black;
+
+}
+
+.contentBox {
+    
+    
+    margin: 130px 30px 30px 60px;
+    display: inline-block;
+    justify-content: flex-start;
+    background: pink;
+    border: 2px dotted black;
+    width: 100%;
+
+}
+
+.image{
+    display: inline-block;
+    background: yellow;
+}
+.navButts{
+    height: 25%;
+    width: 100%;
+    background: blue;
+    display: ruby-text-container;
+    justify-content: space-evenly;
+    justify-content: space-around;
+
+}
+
+
+
+
+    /* justify-content: flex-start;
+    justify-content: space-between;
+    
+    align-items: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;
+    overflow: scroll;
+} */
+
+/* .grandKid { */
+    /* display: flex;
+    border: 2px solid purple;
+    height: 100vh;
+    background: crimson;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.child2{
+    height: 100px;
+    width: 100px;
+    background:yellow;
+    display: inline-block;
+
+} */ 
